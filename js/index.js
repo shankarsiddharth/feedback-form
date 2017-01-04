@@ -20,8 +20,7 @@ $(document).ready(function(){
             "review2": review2
         };
         $.post("https://requestb.in/1a969ou1", review ,function(response, status){
-            console.log("Success");
-            alert("Status: " + status);        
+            console.log("Status: " + status);
     });
     });
 });
