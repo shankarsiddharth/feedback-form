@@ -19,7 +19,7 @@ $(document).ready(function(){
             "review1": review1,
             "review2": review2
         };
-        $.post("http://requestb.in/1a969ou1", review ,function(response, status){
+        $.post("https://requestb.in/1a969ou1", review ,function(response, status){
             console.log("Success");
             alert("Status: " + status);        
     });
