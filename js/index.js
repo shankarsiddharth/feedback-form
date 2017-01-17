@@ -19,7 +19,7 @@ $(document).ready(function(){
             "review1": review1,
             "review2": review2
         };
-        $.post("http://requestb.in/19mqp121", review ,function(response, status){
+        $.post("https://requestb.in/19mqp121", review ,function(response, status){
             console.log("Status: " + status);
     });
     });
